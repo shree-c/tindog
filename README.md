@@ -1,2 +1,1 @@
-# tindog
-an imitation of tinder
+TinDog Starting Files

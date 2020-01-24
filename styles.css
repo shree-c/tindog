@@ -1,0 +1,153 @@
+
+#title {
+    background-color:#ff4c68;
+    /* box-sizing: border-box; */
+    /* height: 34rem; */
+    
+    color: white;
+    
+}
+h1.toy{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 8000;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+.iphone{
+    transform: rotate(27deg);
+    /* padding-top: 19%; */
+    /* height: 69%; */
+    width:60%;
+    /* position: relative; */
+    position: absolute;
+    /* right: 107px; */
+     right: 30%;
+    margin-top: 58px;
+
+}
+
+/* navigationbar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 2.4rem 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+/* buttondownload */
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+/* features */
+.fas{
+    color:#ef8172;   
+}
+.fas:hover{
+    color:#ff4c68;
+}
+#features{
+    /* margin:0rem 3rem 4rem; */
+    background-color: white;
+    padding:7% 5%;
+    position: relative;
+    /* z-index: 1; */
+}
+.ico{
+    text-align: center;
+    padding:0 78px;
+    margin-bottom:30px;
+}
+#features h3{
+    margin-top: 2.6rem;
+    font-size: 2.5rem;
+    font-weight:1000;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+#features p{
+    color:#8f8f8f;
+}
+/* testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+    
+
+} 
+.dog{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-images{
+    width:15%;
+    margin:20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+/* pricing section */
+#pricing{
+    padding:100px;
+    text-align:center;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+@media ( max-width:1028px){
+    .iphone{
+        position:static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+/* call to acton */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 9% 9% 9%;
+    
+}
+#cta h3{
+    /* margin-bottom: 5%; */
+    margin:5% 9%;
+    color: white;
+    font-weight: 1000;
+}
+/* copyright */
+#footer{
+    text-align: center;
+    padding:7% 6%;
+}
+#footer p{
+    padding-top: 3%;
+}
+#footer i{
+    padding:0 2%;
+}
